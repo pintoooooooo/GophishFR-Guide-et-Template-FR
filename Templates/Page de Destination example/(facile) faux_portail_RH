@@ -1,0 +1,31 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"/>
+	<title>Portail RH - Authentification Sécurisée</title>
+	<style type="text/css">body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f2f2f2; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .login-card { background: white; padding: 40px; width: 350px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); border-top: 5px solid #004a99; }
+        .logo { font-weight: bold; color: #004a99; font-size: 20px; margin-bottom: 20px; text-align: left; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        h2 { font-size: 24px; color: #333; margin: 10px 0 20px 0; }
+        p { font-size: 14px; color: #666; margin-bottom: 20px; }
+        input[type="text"], input[type="password"] { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 2px; box-sizing: border-box; font-size: 14px; }
+        button { width: 100%; padding: 10px; background-color: #004a99; color: white; border: none; font-weight: bold; cursor: pointer; font-size: 15px; margin-top: 10px; }
+        button:hover { background-color: #003366; }
+        .footer-links { margin-top: 25px; font-size: 12px; color: #004a99; display: flex; justify-content: space-between; }
+        .security-note { margin-top: 20px; font-size: 11px; color: #999; text-align: center; }
+	</style>
+</head>
+<body>
+<div class="login-card">
+<div class="logo">PORTAIL RH</div>
+
+<h2>Connexion</h2>
+
+<p>Veuillez vous authentifier pour accéder à votre dossier de paie 2026.</p>
+
+<form method="POST" action=""><label style="font-size: 12px; color: #333;">Identifiant (Email)</label> <input name="username" placeholder="nom.prenom@entreprise.fr" required="" type="text"/> <label style="font-size: 12px; color: #333;">Mot de passe</label> <input name="password" placeholder="••••••••" required="" type="password"/><button type="submit">Se connecter</button></form>
+
+<div class="footer-links"><a href="#">Mot de passe oublié ?</a> <a href="#">Aide technique</a></div>
+
+<div class="security-note">Session sécurisée par cryptage SSL 256-bits.</div>
+</div>
+
+
+</body></html>
