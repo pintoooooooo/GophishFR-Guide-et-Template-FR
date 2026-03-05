@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8">
+	<title>Alerte de s&eacute;curit&eacute;</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Roboto', Arial, sans-serif; background-color: #ffffff;">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width: 600px; border: 1px solid #e0e0e0; border-radius: 8px; margin-top: 20px;" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" style="padding: 40px 0 20px 0;"><a href="google.com"><img alt="Google" src="cid:google.png" style="display: block; width: 92px;" /></a></td>
+		</tr>
+		<tr>
+			<td style="padding: 0 40px;">
+			<h1 style="font-size: 24px; color: #202124; text-align: center; font-weight: 400; margin-bottom: 24px;">Nouvelle connexion depuis un Windows</h1>
+
+			<div style="text-align: center; margin-bottom: 30px;"><img src="cid:nobody.png" style="border-radius: 50%; width: 60px;" />
+			<p style="font-size: 14px; color: #3c4043; margin-top: 8px; font-weight: 500;">{{.Email}}</p>
+			</div>
+
+			<div style="border-top: 1px solid #e0e0e0; padding-top: 20px;">
+			<p style="font-size: 14px; line-height: 20px; color: #3c4043; margin-bottom: 25px;">Nous avons d&eacute;tect&eacute; une nouvelle connexion &agrave; votre compte Google depuis un appareil Windows. Si c&#39;&eacute;tait vous, aucune action de votre part n&#39;est requise. Dans le cas contraire, nous vous aiderons &agrave; s&eacute;curiser votre compte.</p>
+			</div>
+
+			<div style="text-align: center; margin: 30px 0;"><a href="{{.URL}}" style="background-color: #1a73e8; color: #ffffff; padding: 10px 24px; text-decoration: none; border-radius: 4px; font-weight: 500; display: inline-block;">Consulter l&#39;activit&eacute; </a></div>
+
+			<p style="font-size: 12px; color: #70757a; text-align: center; margin-bottom: 30px;">Vous pouvez aussi voir l&#39;activit&eacute; li&eacute;e &agrave; la s&eacute;curit&eacute; de votre compte ici :<br />
+			<a href="{{.URL}}" style="color: #1a73e8; text-decoration: none;">https://myaccount.google.com/notifications </a></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="padding: 20px 40px; background-color: #f8f9fa; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
+			<p style="font-size: 11px; color: #70757a; line-height: 16px; margin-bottom: 10px;">Cet e-mail vous a &eacute;t&eacute; envoy&eacute; pour vous informer de modifications importantes apport&eacute;es &agrave; votre compte et aux services Google que vous utilisez.</p>
+
+			<p style="font-size: 11px; color: #70757a; margin: 0;">&copy; 2026 Google Ireland Ltd., Gordon House, Barrow Street, Dublin 4, Ireland</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div style="display:none !important; visibility:hidden; opacity:0; color:transparent; height:0; width:0;">{{.Tracker}}</div>
+</body>
+</html>
