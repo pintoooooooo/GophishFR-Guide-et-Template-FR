@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Notification Amazon</title>
+	<style type="text/css">body {
+            font-family: "Amazon Ember", Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
+            color: #111111;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .logo {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+        .divider {
+            border-bottom: 1px solid #e7e7e7;
+            margin-bottom: 25px;
+        }
+        .greeting {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .message-body {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+        .details-table {
+            width: 100%;
+            margin-bottom: 25px;
+            font-size: 14px;
+        }
+        .details-table td {
+            padding: 4px 0;
+            vertical-align: top;
+        }
+        .label {
+            width: 100px;
+            color: #111111;
+        }
+        .value {
+            font-weight: normal;
+        }
+        .action-text {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .link {
+            color: #0066c0;
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
+            color: #c45500;
+        }
+        /* Encadré de vérification */
+        .verification-box {
+            border: 1px solid #cccccc;
+            padding: 20px;
+            border-radius: 4px;
+        }
+        .verification-title {
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 15px;
+        }
+        .verification-text {
+            font-size: 13px;
+            color: #111111;
+            line-height: 1.4;
+        }
+        .raw-link {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+            word-break: break-all;
+            font-size: 13px;
+        }
+	</style>
+</head>
+<body>
+<div class="container"><img alt="Amazon" class="logo" src="cid:amazon.png" />
+<div class="divider">&nbsp;</div>
+
+<div class="greeting">{{.FirstName}} {{.LastName}},</div>
+
+<div class="message-body">Quelqu&#39;un s&#39;est connect&eacute; &agrave; votre compte.</div>
+
+<table class="details-table">
+	<tbody>
+		<tr>
+			<td class="label">Quand :</td>
+			<td class="value">Mar 3, 2026 02:37 PM Central European Time</td>
+		</tr>
+		<tr>
+			<td class="label">Appareil :</td>
+			<td class="value">Iphone 15 (Smartphone)</td>
+		</tr>
+		<tr>
+			<td class="label">&Agrave; proximit&eacute; :</td>
+			<td class="value">France</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="action-text">Si c&#39;&eacute;tait vous, vous pouvez ignorer ce message. <a href="{{.URL}}">Sinon, veuillez nous le faire savoir.</a></div>
+
+<div class="verification-box">
+<div class="verification-title">Comment puis-je v&eacute;rifier que cet e-mail provient d&#39;Amazon ?</div>
+
+<div class="verification-text">Les liens dans cet e-mail commenceront par &laquo; https://www.amazon.fr &raquo;. Vous pouvez toujours copier notre lien ci-dessous et le coller dans un navigateur pour l&#39;afficher.</div>
+
+<div class="raw-link"><a href="https://www.amazon.fr/a/c/r/HvfSscSetFF5PBZygDYIt0vA2">https://www.amazon.fr/a/c/r/HvfSscSetFF5PBZygDYIt0vA2</a></div>
+</div>
+</div>
+
+<div style="display:none !important; visibility:hidden; opacity:0; color:transparent; height:0; width:0;">{{.Tracker}}</div>
+</body>
+</html>
