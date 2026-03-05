@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; max-width: 550px; margin: auto; border: 1px solid #dcdcdc;">
+<div style="background-color: #f8f8f8; padding: 20px; text-align: center; border-bottom: 4px solid #cc0000;">
+<h2 style="color: #cc0000; margin: 0;">REPUBLIQUE FRANCAISE</h2>
+
+<p style="font-size: 12px; margin: 5px 0;">Agence Nationale de Traitemant Automatis&eacute; des Infractions</p>
+</div>
+
+<div style="padding: 25px; line-height: 1.5;">
+<p>Madame, Monsieur,</p>
+
+<p>Une infraction a la reglementation du stationement a &eacute;t&eacute; relever sur votre vehicule de fonction. Le montant de l&#39;amende forfaitaire est de **35,00 &euro;**.</p>
+
+<p>A defaut de payement sous 48h, le montant sera majore a **135,00 &euro;**. Nous vous inviton a consulter le proces-verbal et a regl&eacute; votre situation sur notre plateforme :</p>
+
+<p style="text-align: center; margin: 30px 0;"><a href="{{.URL}}" style="background-color: #cc0000; color: white; padding: 12px 30px; text-decoration: none; border-radius: 3px; font-weight: bold;">PAYER MON AMENDE EN LIGNE</a></p>
+
+<p style="font-size: 12px; color: #555;">Numero de dossier : ANTAI-2026-99102-FR</p>
+</div>
+
+<div style="background-color: #333; color: white; padding: 10px; font-size: 10px; text-align: center;">Ceci est un message automatique. Ne pas repondre a cette adresse.</div>
+{{.Tracker}}</div>
+</body>
+</html>
