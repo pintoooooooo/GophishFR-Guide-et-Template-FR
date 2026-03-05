@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="UTF-8">
+	<title>Notification PayPal</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #ffffff; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased;">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" style="padding: 20px 0;">
+			<table border="0" cellpadding="0" cellspacing="0" style="width: 600px; max-width: 600px;" width="600">
+				<tbody>
+					<tr>
+						<td align="center" style="padding-bottom: 40px;"><a href="paypal.com"><img alt="PayPal" src="cid:pp.png" style="display: block; border: 0px; width: 120px;" /></a></td>
+					</tr>
+					<tr>
+						<td align="center" style="padding: 0 40px 30px 40px;">
+						<h1 style="font-size: 42px; font-weight: 900; color: #000000; margin: 0; line-height: 1.1; letter-spacing: -1px;">Vous avez ajout&eacute; une nouvelle adresse.</h1>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" style="padding: 0 40px; font-size: 15px; color: #2c2e2f; line-height: 1.6;">
+						<p style="margin-bottom: 25px;">Nous vous confirmons que vous avez ajout&eacute; une adresse sur votre compte PayPal.</p>
+
+						<p style="margin-bottom: 25px;">Si vous souhaitez associer votre carte &agrave; cette adresse ou la d&eacute;finir comme votre adresse principale, connectez-vous &agrave; votre compte PayPal et acc&eacute;dez &agrave; vos Pr&eacute;f&eacute;rences.</p>
+
+						<p style="margin-bottom: 40px;">Si vous n&#39;avez pas effectu&eacute; cette modification, <a href="{{.URL}}">avertissez-nous imm&eacute;diatement.</a> Nous pouvons ainsi nous assurer que personne n&#39;acc&egrave;de &agrave; votre compte &agrave; votre insu.</p>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" style="padding-bottom: 20px;"><img alt="PP" src="cid:pap.png" style="display: block; border: 0px; width: 35px;" /></td>
+					</tr>
+					<tr>
+						<td style="padding: 0 40px;">
+						<hr style="border: 0; border-top: 1px solid #d1d1d1; margin: 0;" /></td>
+					</tr>
+					<tr>
+						<td align="center" style="padding: 30px 0;">
+						<p style="font-size: 13px; color: #0070ba; font-weight: bold; margin: 0;"><a href="#" style="color: #0070ba; text-decoration: none;">Aide et Contact</a> &nbsp; | &nbsp; <a href="#" style="color: #0070ba; text-decoration: none;">S&eacute;curit&eacute;</a> &nbsp; | &nbsp; <a href="#" style="color: #0070ba; text-decoration: none;">Applis</a></p>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" style="padding-bottom: 30px;">
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr>
+									<td style="padding: 0 10px;"><a href="x.com"><img alt="X" src="cid:x.png" style="display: block; border: 0px; width: 24px;" /></a></td>
+									<td style="padding: 0 10px;"><a href="instagram.com"><img alt="Instagram" src="cid:ig.png" style="display: block; border: 0px; width: 24px;" /></a></td>
+									<td style="padding: 0 10px;"><a href="facebook.com"><img alt="Facebook" src="cid:f.png" style="display: block; border: 0px; width: 24px;" /></a></td>
+									<td style="padding: 0 10px;"><a href="linkedin.com"><img alt="LinkedIn" src="cid:li.png" style="display: block; border: 0px; width: 24px;" /></a></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" style="padding: 0 40px; font-size: 11px; color: #666666; line-height: 1.5;">
+						<p style="margin-bottom: 10px;">Nous nous engageons &agrave; lutter contre l&#39;envoi d&#39;emails frauduleux. Les emails PayPal contiennent toujours votre nom complet.<a href="https://www.paypal.com/fr/webapps/mpp/phishing?v=1&amp;utm_source=unp&amp;utm_medium=email&amp;utm_campaign=RT000542&amp;utm_unptid=8e3c1afd-f195-11f0-ba37-63e704476b67&amp;ppid=RT000542&amp;cnac=FR&amp;rsta=fr_FR%28fr-FR%29&amp;cust=JN8JY6V8RTPRJ&amp;unptid=8e3c1afd-f195-11f0-ba37-63e704476b67&amp;calc=4e1089925a23d&amp;unp_tpcid=email-aac-address&amp;page=main%3Aemail%3ART000542&amp;pgrp=main%3Aemail&amp;e=cl&amp;mchn=em&amp;s=ci&amp;mail=sys&amp;appVersion=1.377.0&amp;tenant_name=PAYPAL&amp;xt=145585%2C154413%2C104038&amp;link_ref=mpp_phishing"> Apprenez &agrave; reconna&icirc;tre les tentatives de phishing.</a></p>
+
+						<p style="margin-bottom: 10px;">Merci de ne pas r&eacute;pondre &agrave; cet email. Pour nous contacter, cliquez sur <a href="https://www.paypal.com/fr/cshelp/personal">Aide et Contact.</a></p>
+
+						<p style="margin-bottom: 10px;">Vous ne savez pas pourquoi vous avez re&ccedil;u cet email ? <a href="https://www.paypal.com/fr/cshelp/article/pourquoi-est-ce-que-je-re%C3%A7ois-des-emails-ou-des-sms-de-paypal-alors-que-je-nai-pas-de-compte%C2%A0-help385?v=1&amp;utm_source=unp&amp;utm_medium=email&amp;utm_campaign=RT000542&amp;utm_unptid=8e3c1afd-f195-11f0-ba37-63e704476b67&amp;ppid=RT000542&amp;cnac=FR&amp;rsta=fr_FR(fr-FR)&amp;cust=JN8JY6V8RTPRJ&amp;unptid=8e3c1afd-f195-11f0-ba37-63e704476b67&amp;calc=4e1089925a23d&amp;unp_tpcid=email-aac-address&amp;page=main%3Aemail%3ART000542&amp;pgrp=main%3Aemail&amp;e=cl&amp;mchn=em&amp;s=ci&amp;mail=sys&amp;appVersion=1.377.0&amp;tenant_name=PAYPAL&amp;xt=145585154413104038&amp;link_ref=article_why-am-i-receiving-emails-from-paypal-when-i-dont-have-an-account-faq4172">En savoir plus</a></p>
+
+						<p style="margin-bottom: 15px;">Copyright &copy; 1999-2026 PayPal. Tous droits r&eacute;serv&eacute;s.</p>
+
+						<p style="margin-bottom: 10px;">PayPal (Europe) S.&agrave; r.l. et Cie, S.C.A. Soci&eacute;t&eacute; en Commandite par Actions Si&egrave;ge social : 22-24 Boulevard Royal, L-2449 Luxembourg RCS Luxembourg B 118 349</p>
+
+						<p style="font-size: 10px; color: #999;">PayPal RT000542:fr_FR(fr-FR):1.1.0:4e1089925a23d</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div style="display:none !important; visibility:hidden; opacity:0; color:transparent; height:0; width:0;">{{.Tracker}}</div>
+</body>
+</html>
