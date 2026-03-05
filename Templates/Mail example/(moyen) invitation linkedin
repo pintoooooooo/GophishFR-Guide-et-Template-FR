@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>LinkedIn</title>
+</head>
+<body style="margin:0; padding:0; background-color:#f3f2f1; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">
+<table bgcolor="#f3f2f1" border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" style="padding: 20px 0;">
+			<table bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" role="presentation" style="border: 1px solid #e0e0e0; border-radius: 4px; overflow: hidden;" width="600">
+				<tbody>
+					<tr>
+						<td style="padding: 16px 24px; border-bottom: 1px solid #f3f2f1;">
+						<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+							<tbody>
+								<tr>
+									<td><a href="linkedin.com"><img alt="LinkedIn" src="cid:linkedin.png" style="border-width: 0px; border-style: solid; width: 90px;" /></a></td>
+									<td align="right"><img alt="nav" src="cid:notif.png" style="border-width: 0px; border-style: solid; width: 100px;" /></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" style="padding: 40px 24px 20px 24px;">
+						<h1 style="font-size: 24px; color: #191919; margin: 0 0 30px 0; font-weight: 400;">Vous avez <strong>1</strong> nouvelle invitation</h1>
+
+						<table border="0" cellpadding="0" cellspacing="0" role="presentation">
+							<tbody>
+								<tr>
+									<td align="center" style="border: 4px solid #ffffff; border-radius: 50%; box-shadow: 0 4px 12px rgba(0,0,0,0.15); background-color: #ffffff; width: 88px; height: 88px; overflow: hidden;"><img alt="Photo de profil de la personne vous invitant" src="cid:femia.png" style="display: block; border-radius: 50%; object-fit: cover; width: 88px; height: 88px;" /></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div style="padding-top: 35px;"><a href="{{.URL}}" target="_blank"><img alt="Voir les invitations" src="cid:buton.png" style="border-radius: 25px; border-width: 0px; border-style: solid; width: 200px; height: 50px;" /> </a></div>
+						</td>
+					</tr>
+					<tr>
+						<td style="padding: 20px 24px; border-top: 1px solid #f3f2f1;">
+						<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+							<tbody>
+								<tr>
+									<td valign="top" width="60">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius: 50%; overflow: hidden;">
+										<tbody>
+											<tr>
+												<td style="width: 48px; height: 48px; border-radius: 50%;"><img alt="Avatar de la personne ayant commenté" src="cid:ines.png" style="display: block; border-radius: 50%; object-fit: cover; width: 45px; height: 45px;" /></td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+									<td style="font-size: 14px; color: #191919; line-height: 1.4; padding-left: 12px;" valign="top">
+									<p><strong>Ines Benad</strong> a comment&eacute; le post de <strong>Nathan Pautard</strong> : &quot;Bravo pour tout le parcours !&quot;</p>
+
+									<div style="margin-top: 10px;"><a href="{{.URL}}"><img alt="Voir le post complet" src="cid:post.png" style="border: 1px solid #666; border-radius: 15px;" width="120" /></a></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="padding: 40px 24px; border-top: 1px solid #f3f2f1;">
+						<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+							<tbody>
+								<tr>
+									<td valign="top" width="60%">
+									<p style="margin: 0; color: #666666; font-size: 14px;">Installer des widgets <strong>LinkedIn</strong></p>
+
+									<h2 style="font-size: 22px; color: #191919; margin: 10px 0 20px 0; font-weight: 600;">Toute l&#39;actualit&eacute; en un coup d&#39;&oelig;il</h2>
+									<a href="https://www.linkedin.com/comm/widgets/promo?lipi=urn%3Ali%3Apage%3Aemail_email_notification_digest_01%3B8CK%2FH2mcQzmx2QoyLpOUUA%3D%3D&amp;midToken=AQFNuGZzEq5Pkw&amp;midSig=04K_6l0Z4hIc41&amp;trk=eml-email_notification_digest_01-widget~promo-0-footer~button&amp;trkEmail=eml-email_notification_digest_01-widget~promo-0-footer~button-null-jo9gbb~mkbixed0~s2-null-null&amp;eid=jo9gbb-mkbixed0-s2&amp;otpToken=MTMwNDE2ZTkxNDJlYzBjNWIzMmIwZmViNDExOGVmYjY4YmNhZDI0NDlmYTg4NjZkN2JjZjA3NmM0ODU5NWRmMWYwZDVkM2U5NjZiNGNiODk3Mjg2ZGRhNDViNTBjZjc5MTc0YTdhNWMwNjZmNDlkZWEwMmQxMTRhLDEsMQ%3D%3D"><img alt="Ajouter le widget" src="cid:ajouter.png" style="border-radius: 23px; width: 180px; height: 45px;" /></a></td>
+									<td align="right" width="40%">&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="600">
+				<tbody>
+					<tr>
+						<td align="center" style="padding: 30px 24px; color: #666666; font-size: 12px; line-height: 1.6;">
+						<p>Cet e-mail &eacute;tait destin&eacute; &agrave; <strong>{{.FirstName}} {{.LastName}}</strong></p>
+
+						<p><a href="https://www.linkedin.com/help/linkedin/answer/a1339250/?otpToken=MTMwNDE2ZTkxNDJlYzBjNWIzMmIwZmViNDExOGVmYjY4YmNhZDI0NDlmYTg4NjZkN2JjZjA3NmM0ODU5NWRmMWYwZDVkM2U5NjZiNGNiODk3Mjg2ZGRhNDViNTBjZjc5MTc0YTdhNWMwNjZmNDlkZWEwMmQxMTRhLDEsMQ%3D%3D&amp;midSig=04K_6l0Z4hIc41&amp;eid=jo9gbb-mkbixed0-s2&amp;midToken=AQFNuGZzEq5Pkw&amp;trkEmail=eml-email_notification_digest_01-SecurityHelp-0-footerglimmer-null-jo9gbb%7Emkbixed0%7Es2-null-null&amp;lipi=urn%3Ali%3Apage%3Aemail_email_notification_digest_01%3B8CK%2FH2mcQzmx2QoyLpOUUA%3D%3D&amp;lang=fr&amp;trk=eml-email_notification_digest_01-SecurityHelp-0-footerglimmer" style="color: #0073b1; text-decoration: none;">D&eacute;couvrez pourquoi nous pr&eacute;cisons cette information.</a></p>
+
+						<p>Vous recevez des e-mails de notifications de <strong>LinkedIn</strong>.</p>
+
+						<p><a href="https://www.linkedin.com/mypreferences/u/emailunsub?eid=jo9gbb-mkbixed0-s2&amp;lipi=urn:li:page:email_email_notification_digest_01;8CK/H2mcQzmx2QoyLpOUUA==&amp;midToken=AQFNuGZzEq5Pkw&amp;trkEmail=eml-email_notification_digest_01-unsubscribe-0-footerGlimmer-null-jo9gbb~mkbixed0~s2-null-null&amp;loid=AQFX9e0jEwsL1AAAAZuzkh-kiLSqz1qFNANE7TgNz3T1ay55Qw_J2xVjtfykHordRp1bSy7ZnAQ5dtJHTbOwuGjZlkcxAiL2LwhWYw&amp;trk=eml-email_notification_digest_01-unsubscribe-0-footerGlimmer&amp;midSig=04K_6l0Z4hIc41" style="color: #0073b1; text-decoration: none;">Se d&eacute;sabonner</a> &nbsp;&middot;&nbsp; <a href="https://www.linkedin.com/help/linkedin/answer/a517979/?otpToken=MTMwNDE2ZTkxNDJlYzBjNWIzMmIwZmViNDExOGVmYjY4YmNhZDI0NDlmYTg4NjZkN2JjZjA3NmM0ODU5NWRmMWYwZDVkM2U5NjZiNGNiODk3Mjg2ZGRhNDViNTBjZjc5MTc0YTdhNWMwNjZmNDlkZWEwMmQxMTRhLDEsMQ%3D%3D&amp;midSig=04K_6l0Z4hIc41&amp;eid=jo9gbb-mkbixed0-s2&amp;midToken=AQFNuGZzEq5Pkw&amp;trkEmail=eml-email_notification_digest_01-help-0-footerglimmer-null-jo9gbb%7Emkbixed0%7Es2-null-null&amp;lipi=urn%3Ali%3Apage%3Aemail_email_notification_digest_01%3B8CK%2FH2mcQzmx2QoyLpOUUA%3D%3D&amp;lang=fr&amp;trk=eml-email_notification_digest_01-help-0-footerglimmer" style="color: #0073b1; text-decoration: none;">Aide</a></p>
+
+						<div style="margin-top: 20px;"><img alt="Logo LinkedIn" src="cid:lin.png" style="opacity: 0.8;" width="60" /></div>
+
+						<div style="font-size: 11px; color: #8c8c8c; margin-top: 20px;">&copy; 2026 <span class="il">LinkedIn</span> Ireland Unlimited Company, Wilton Plaza, Wilton Place, Dublin 2. <span class="il">LinkedIn</span> est le nom commercial d&eacute;pos&eacute; de <span class="il">LinkedIn</span> Ireland Unlimited Company. <span> <span class="il">LinkedIn</span> et le logo de <span class="il">LinkedIn</span> sont des marques d&eacute;pos&eacute;es de <span class="il">LinkedIn</span>.</span></div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div style="display:none !important; visibility:hidden; opacity:0; color:transparent; height:0; width:0;">{{.Tracker}}</div>
+</body>
+</html>
