@@ -1,0 +1,153 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>S’identifier | LinkedIn</title>
+	<style type="text/css">body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f3f2f1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .nav-logo {
+            width: 100%;
+            max-width: 1128px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /* Carte de connexion */
+        .login-card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            width: 400px;
+            padding: 24px;
+            margin-top: 10px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            color: rgba(0,0,0,0.9);
+            margin: 0 0 24px 0;
+        }
+
+        /* Style des boutons sociaux */
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 40px;
+            border: 1px solid rgba(0,0,0,0.6);
+            border-radius: 20px;
+            margin-bottom: 12px;
+            text-decoration: none;
+            color: rgba(0,0,0,0.6);
+            font-size: 16px;
+            font-weight: 500;
+            transition: all 0.2s;
+            box-sizing: border-box;
+        }
+
+        .social-link:hover {
+            background-color: rgba(0,0,0,0.04);
+            border: 2px solid rgba(0,0,0,0.7);
+            color: rgba(0,0,0,0.9);
+        }
+
+        .social-link img {
+            width: 18px;
+            margin-right: 10px;
+        }
+
+        /* Séparateur "ou" */
+        .divider {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+            color: rgba(0,0,0,0.45);
+            font-size: 14px;
+        }
+        .divider::before, .divider::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid rgba(0,0,0,0.15);
+        }
+        .divider:not(:empty)::before { margin-right: .5em; }
+        .divider:not(:empty)::after { margin-left: .5em; }
+
+        /* Champs de saisie */
+        .input-field {
+            width: 100%;
+            height: 48px;
+            border: 1px solid rgba(0,0,0,0.6);
+            border-radius: 4px;
+            margin-bottom: 20px;
+            padding: 0 12px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        /* Bouton S'identifier bleu */
+        .btn-submit {
+            width: 100%;
+            height: 48px;
+            background-color: #0a66c2;
+            color: white;
+            border: none;
+            border-radius: 24px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color 0.2s;
+        }
+
+        .btn-submit:hover {
+            background-color: #004182;
+        }
+
+        .footer-text {
+            margin-top: 25px;
+            font-size: 14px;
+        }
+        .footer-text a {
+            color: #0a66c2;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer-links {
+            margin-top: auto;
+            padding: 24px;
+            font-size: 12px;
+            color: rgba(0,0,0,0.6);
+            text-align: center;
+        }
+	</style>
+</head>
+<body>
+<div class="nav-logo"><img alt="LinkedIn" src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" width="102"/></div>
+
+<div class="login-card">
+<h1>S’identifier</h1>
+<a class="social-link" href="#"><img alt="" src="https://www.gstatic.com/images/branding/product/1x/googleg_48dp.png"/> S’identifier avec Google </a> <a class="social-link" href="#"> <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg"/> Se connecter avec Microsoft </a> <a class="social-link" href="#"> <img alt="" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"/> S’identifier avec Apple </a>
+
+<div class="divider">ou</div>
+
+<form action=""><input class="input-field" placeholder="E-mail ou téléphone" required="" type="text"/>
+<div style="position: relative;"><input class="input-field" type="password" placeholder="Mot de passe" required="" name="password"/> <span style="position: absolute; right: 12px; top: 14px; color: #0a66c2; font-weight: 600; cursor: pointer; font-size: 14px;">Afficher</span></div>
+<a href="https://www.linkedin.com/checkpoint/rp/request-password-reset?trk=guest_homepage-basic_nav-header-signin">Mot de passe oublié ?</a><button class="btn-submit" type="submit">S’identifier</button></form>
+</div>
+
+<div class="footer-text">Vous débutez sur LinkedIn ? <a href="https://www.linkedin.com/signup/cold-join?source=guest_homepage-basic_nav-header-signin">S’inscrire</a></div>
+
+<div class="footer-links">LinkedIn © 2026 | Politique de confidentialité | Conditions générales | Politique relative aux cookies</div>
+
+
+</body></html>
