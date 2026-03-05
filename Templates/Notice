@@ -1,0 +1,40 @@
+#  Notice : Classification des Templates
+
+Cette notice définit la logique appliquée aux modèles inclus dans le dépôt. 
+Le niveau de difficulté est basé sur la **perception de la cible** face à la supercherie.
+
+---
+
+### Échelle de Perception
+Le classement évalue l'effort d'analyse critique nécessaire pour identifier une anomalie.
+
+#### 🟢 Niveau : Facile
+* **Cible :** Utilisateur non averti ou en situation de précipitation.
+* **Détection :** Identifiable par une simple observation visuelle.
+* **Indicateurs :** Design générique, ton impersonnel ou erreurs de syntaxe flagrantes.
+
+#### 🟡 Niveau : Moyen
+* **Cible :** Utilisateur sensibilisé aux bases de la cybersécurité.
+* **Détection :** Nécessite une vérification active (survol des liens, analyse de l'expéditeur).
+* **Indicateurs :** Graphisme fidèle aux standards habituels, créant une confiance immédiate.
+
+#### 🔴 Niveau : Élevé
+* **Cible :** Profils avertis ou experts techniques.
+* **Détection :** Quasi invisible sans analyse technique (en-têtes, certificats).
+* **Indicateurs :** Reproduction parfaite de l'environnement et contexte métier ultra-spécifique.
+
+---
+
+### Méthodologie d'Analyse
+Chaque template est construit autour de trois piliers fondamentaux :
+
+1. **Apparence :** Mimétisme des logos, polices et chartes graphiques officielles.
+2. **Sémantique :** Justesse du vocabulaire et du ton utilisé selon l'émetteur supposé.
+3. **Psychologie :** Utilisation des leviers d'urgence, de curiosité ou de peur pour court-circuiter le jugement.
+
+> **✅ Recommandation :** Utilisez les templates `(facile)` 
+pour les tests de masse initiaux et les templates `(moyen)` 
+ou `(élevé)` pour des exercices ciblés après formation.
+
+---
+**GophishFR — Guide de classification des templates**
