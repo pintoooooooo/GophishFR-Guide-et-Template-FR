@@ -1,0 +1,49 @@
+services:
+
+  mariadb-gophishfr:
+    image: mariadb:latest
+    container_name: mariadb-gophishfr
+    restart: always
+    command: --max-allowed-packet=64M
+    environment:
+      MARIADB_ROOT_PASSWORD: CHANGEZ_CE_MOT_DE_PASSE
+      MARIADB_DATABASE: gophish
+      MARIADB_USER: gophishfr_user
+      MARIADB_PASSWORD: CHANGEZ_CE_MOT_DE_PASSE
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "16m"
+        max-file: "3"
+
+  gophishfr:
+    image: gophishfr/gophishfr:latest
+    container_name: gophishfr
+    restart: always
+    depends_on:
+      - mariadb-gophishfr
+    ports:
+      - "3333:3333"   # Interface d'administration
+      - "80:8080"     # Serveur de phishing
+    volumes:
+      - ./certs:/opt/gophishfr/certs
+      - ./config.json:/opt/gophishfr/config.json
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  postfix:
+    image: panubo/postfix:latest
+    container_name: gophish_postfix
+    restart: always
+    environment:
+      - MAILNAME=votre-domaine.fr
+    ports:
+      - "25:25"
+
+volumes:
+  mariadb_data:
