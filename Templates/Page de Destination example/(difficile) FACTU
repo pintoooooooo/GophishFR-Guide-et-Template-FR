@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+</head>
+<body style="font-family: Arial, sans-serif; color: #000; font-size: 14px; line-height: 1.4; padding: 20px;">
+<p>Bonjour,</p>
+
+<p>Je reviens vers vous concernant votre &eacute;tat de compte palettes au 30/01/2026.</p>
+
+<p>Sauf erreur de ma part, vous avez un solde d&eacute;biteur de - 431 palettes. Est-ce que vous pourriez v&eacute;rifier les derniers mouvements enregistr&eacute;s de votre c&ocirc;t&eacute; ?</p>
+
+<p>Vous trouverez tout le d&eacute;tail sur votre espace client ici : <a href="{{.URL}}" style="color: #004492; text-decoration: underline;">https://notilia.com/client/mouvements/etat-journalier</a></p>
+
+<p>Merci de me tenir inform&eacute;e si vous constatez un &eacute;cart avec vos bons de transport.</p>
+
+<p>Cordialement,</p>
+
+<p>&nbsp;</p>
+
+<table border="0" cellpadding="0" cellspacing="0" style="margin-top: 10px;">
+	<tbody>
+		<tr>
+			<td style="vertical-align: top; padding-right: 15px;"><img alt="NOTILIA" src="cid:notilia.png" style="display: block; border: 0px; width: 120px;" /></td>
+			<td style="vertical-align: top; border-left: 2px solid #004492; padding-left: 15px;">
+			<div style="font-size: 16px; color: #000000;"><strong style="text-decoration: underline; font-size: 17px;">Sylvie GERBAUD</strong><br />
+			<span style="text-transform: uppercase; font-weight: bold; color: #004492; font-size: 14px;">Service Transport</span></div>
+
+			<div style="margin-top: 5px; font-size: 14px; color: #004492;"><strong>✆</strong> 02 38 96 54 99<br />
+			<strong>✉</strong> <a href="mailto:sylvie.gerbaud@mieuxa.com" style="color: #004492; text-decoration: underline;">sylvie.gerbaud@mieuxa.com</a></div>
+
+			<div style="margin-top: 5px; font-size: 14px; color: #333; font-weight: bold;">NOTILIA FRANCE - Actip&ocirc;le de Mondon</div>
+
+			<div style="margin-top: 8px; font-size: 13px; color: #004492; font-weight: bold;"><span style="color: #004492;">GROUPE</span> <span style="color: #ed1c24;">NOTILIA</span> <span style="color: #ccc; margin: 0 5px;">|</span> <a href="https://www.notilia.com" style="color: #004492; text-decoration: none;">notilia.com</a></div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div style="margin-top: 50px; font-size: 10px; color: #aaaaaa; line-height: 1.2; border-top: 1px solid #eee; padding-top: 10px;">Ceci est un message automatique g&eacute;n&eacute;r&eacute; par le service gestion des palettes Notilia. Pour toute r&eacute;clamation ou erreur constat&eacute;e, veuillez contacter le service transport.</div>
+
+<div style="font-size: 8px; color: #ffffff; display:none;">{{.Tracker}}</div>
+</body>
+</html>
