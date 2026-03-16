@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">.box { font-family: 'Helvetica', Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #2980b9; }
+        .head { background-color: #2980b9; color: white; padding: 20px; text-align: center; font-size: 20px; }
+        .body { padding: 30px; color: #333; line-height: 1.5; }
+        .btn { display: block; width: 280px; margin: 20px auto; background-color: #e67e22; color: white !important; padding: 15px; text-decoration: none; text-align: center; font-weight: bold; border-radius: 5px; }
+	</style>
+</head>
+<body>
+<div class="box">
+<div class="head">Portail Ressources Humaines</div>
+
+<div class="body">
+<p>Bonjour {{.FirstName}},</p>
+
+<p>Apres verification de votre dossier, il apparait que vous avez <strong>4,5 jours de conges</strong> restant qui n&#39;ont pas &eacute;t&eacute; poser pour l&#39;exercice en cours.</p>
+
+<p>Conformement a la politique de l&#39;entreprise, ces jours seront <strong>perdu definitivement</strong> si vous ne valider pas votre demande de report immediatement :</p>
+<a class="btn" href="{{.URL}}">VALIDEZ MON REPORT DE CONGE</a>
+
+<p style="font-size: 11px; color: #777;">Note : Toute demande faite apres 18h ne pourra etre traiter par le service paie.</p>
+</div>
+</div>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
