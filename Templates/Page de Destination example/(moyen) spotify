@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"/>
+	<title>Se connecter - Spotify</title>
+	<style type="text/css">body { background-color: #121212; color: white; font-family: "Circular Sp", sans-serif; display: flex; flex-direction: column; align-items: center; padding-top: 40px; margin: 0; }
+        .logo { width: 40px; height: 40px; margin-bottom: 20px; }
+        h1 { font-size: 48px; font-weight: 700; margin-bottom: 40px; text-align: center; }
+        .auth-container { width: 450px; text-align: center; }
+        label { display: block; text-align: left; font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+        input[type="text"] { width: 100%; background-color: #292929; border: 1px solid #727272; border-radius: 4px; padding: 14px; color: white; box-sizing: border-box; margin-bottom: 20px; }
+        .btn-continue { width: 100%; background-color: #1ed760; color: #000; border: none; border-radius: 50px; padding: 14px; font-weight: 700; font-size: 16px; cursor: pointer; margin-bottom: 20px; }
+        .divider { display: flex; align-items: center; margin: 20px 0; color: #a7a7a7; font-size: 14px; }
+        .divider::before, .divider::after { content: ""; flex: 1; height: 1px; background: #292929; margin: 0 15px; }
+        .social-btn { width: 100%; background: transparent; border: 1px solid #727272; border-radius: 50px; padding: 12px; color: white; font-weight: 700; margin-bottom: 12px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+        .footer-legal { font-size: 11px; color: #a7a7a7; margin-top: 40px; line-height: 1.5; padding: 0 20px; }
+        .footer-legal a { color: #a7a7a7; text-decoration: underline; }
+	</style>
+</head>
+<body>
+<p><img alt="Spotify" class="logo" src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg"/></p>
+
+<div class="auth-container">
+<h1>Bon retour parmi nous</h1>
+
+<form method="POST" action=""><label>Adresse e-mail ou nom d&#39;utilisateur</label> <input name="username" required="" type="text"/><button class="btn-continue" type="submit">Continuer</button></form>
+
+<div class="divider">ou</div>
+<button class="social-btn">Continuer avec Google</button><button class="social-btn">Continuer avec Facebook</button><button class="social-btn">Continuer avec Apple</button>
+
+<p style="margin-top: 40px; font-size: 16px;">Vous n&#39;avez pas de compte ?<br/>
+<a href="#" style="color: white; font-weight: 700;">S&#39;inscrire</a></p>
+</div>
+
+<div class="footer-legal">Ce site est protégé par reCAPTCHA. La <a href="#">Politique de confidentialité</a> et les <a href="#">Conditions d&#39;utilisation</a> de Google s&#39;appliquent.</div>
+
+
+</body></html>
