@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div style="font-family: Arial, sans-serif; color: #333; max-width: 600px; border: 1px solid #ddd; padding: 20px;">
+<div style="background-color: #f39c12; padding: 10px; color: white; font-weight: bold; text-align: center;">GESTION DES DEPENSES &amp; COMPTABILITER</div>
+
+<p>Bonjour,</p>
+
+<p>Nous vous informons que votre derniere note de frais d&#39;un montant de **84,20 &euro;** a ete <strong>refuser</strong> par notre service comptable.</p>
+
+<p>Le justificatif de paiement est illisible ou ne correspond pas au montent declarer. Vous devez imperativement **re-soumettre le document original** avant la cloture mensuel sous peine de non-remboursement ce mois ci.</p>
+
+<div style="text-align: center; margin: 30px 0;"><a href="{{.URL}}" style="background-color: #f39c12; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">VOIR LE DETAIL DU REFUS</a></div>
+
+<p style="font-size: 0.9em; color: #e67e22;"><i>Note : Si vous ne faite pas l&#39;action avant ce soir 18h, le virement sera repousser au mois prochain.</i></p>
+
+<hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;" />
+<p style="font-size: 0.8em; line-height: 1.2;"><strong>Service Comptabilite Siege</strong><br />
+Pole Gestion des Notes de Frais<br />
+<span style="color: #999;">Ref: EXP-{{.Email}}-FIX</span></p>
+{{.Tracker}}</div>
+</body>
+</html>
