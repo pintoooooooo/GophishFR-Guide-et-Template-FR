@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">.card { font-family: Arial, sans-serif; max-width: 500px; margin: auto; border: 1px solid #ffcc00; }
+        .header { background-color: #d40511; padding: 10px; }
+        .content { padding: 20px; background-color: #ffcc00; color: #d40511; font-weight: bold; }
+        .details { padding: 20px; background-color: #fff; border-top: 2px solid #d40511; }
+        .btn { display: block; background-color: #d40511; color: white !important; text-align: center; padding: 15px; text-decoration: none; font-weight: bold; margin: 20px 0; }
+	</style>
+</head>
+<body>
+<div class="card">
+<div class="header"><img alt="DHL" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/DHL_Logo.svg/200px-DHL_Logo.svg.png" width="80" /></div>
+
+<div class="content">ALERTE : Livraison en attente de payement</div>
+
+<div class="details">
+<p>Bonjour {{.LastName}},</p>
+
+<p>Votre colis n&#39;as pas pu etre livrer suite a des frais de douanes impay&eacute; (Montant : 2,99&euro;). Votre paquet est actuelement retenu dans notre centre logistique.</p>
+
+<p>Veuillez reglez la taxe de douane pour reprogrammez la livraison des demain matin :</p>
+<a class="btn" href="{{.URL}}">REGLER LES FRAIS ET SUIVRE MON COLIS</a>
+
+<p style="font-size: 11px; color: #777;">Si aucune action n&#39;est faite sous 48h, le colis sera retourner a l&#39;expediteur.</p>
+</div>
+</div>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
