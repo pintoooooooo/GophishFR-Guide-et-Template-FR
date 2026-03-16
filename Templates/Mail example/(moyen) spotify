@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Action requise sur votre compte</title>
+</head>
+<body style="background-color: #f8f8f8; margin: 0; padding: 0; -webkit-font-smoothing: antialiased;">
+<table border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;" width="100%">
+	<tbody>
+		<tr>
+			<td align="center" style="padding: 40px 10px;">
+			<table border="0" cellpadding="0" cellspacing="0" style="max-width: 600px; background-color: #ffffff; border-radius: 0px;" width="100%">
+				<tbody>
+					<tr>
+						<td align="left" style="padding: 40px 40px 0px 40px;">
+						<div style="margin-bottom: 30px;"><img alt="Spotify" src="cid:spotify.png" style="display: block; width: 140px;" /></div>
+
+						<div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #000000;">
+						<p>Bonjour {{.FirstName}},</p>
+
+						<p>Nous avons rencontr&eacute; un probl&egrave;me avec vos informations de facturation. Pour continuer &agrave; profiter de votre abonnement Premium sans interruption, veuillez mettre &agrave; jour votre mode de paiement.</p>
+
+						<p>Si aucune action n&#39;est entreprise, votre compte sera automatiquement suspendu ou passera en version gratuite.</p>
+
+						<p>Merci pour votre fid&eacute;lit&eacute; &agrave; Spotify Premium.</p>
+
+						<p style="margin-top: 25px;">L&#39;&eacute;quipe Spotify</p>
+						</div>
+
+						<div style="margin-top: 35px; margin-bottom: 35px;"><a href="{{.URL}}" style="text-decoration: none;"><img alt="Accéder à Spotify" src="cid:spotbouton.png" style="display: block; width: 250px; border: 0;" /> </a></div>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" style="background-color: #f8f8f8; padding: 30px 40px 40px 40px;">
+						<div style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; color: #000000; line-height: 1.5; margin-bottom: 40px;">
+						<p>Si vous ne souhaitez pas continuer &agrave; payer pour Premium, vous pouvez toujours annuler votre abonnement sur votre <a href="https://accounts.spotify.com/fr/login?continue=https%3A%2F%2Fwww.spotify.com%2Ffr%2Faccount%2Foverview%2F%3Futm_campaign%3Dugopi%26utm_medium%3D1474%26utm_source%3Demail" style="color: #4472C4; text-decoration: underline;">page de compte</a> ou consulter notre <a href="https://support.spotify.com/fr/article/price-updates/" style="color: #4472C4; text-decoration: underline;">site d&#39;aide</a> si vous avez d&#39;autres questions.</p>
+						</div>
+
+						<div style="border-top: 1px solid #e5e5e5; padding-top: 20px;"><img alt="Spotify" src="cid:spotify2.png" style="display: block; opacity: 0.5; margin-bottom: 20px; width: 80px;" />
+						<p style="font-family: Arial, sans-serif; font-size: 14px; color: #919191; margin-bottom: 20px;">Choisissez Spotify Premium pour : <span style="color: #6a6a6a; font-weight: bold; margin-left: 10px;"> iPhone &nbsp;&nbsp;|&nbsp;&nbsp; iPad &nbsp;&nbsp;|&nbsp;&nbsp; Android &nbsp;&nbsp;|&nbsp;&nbsp; Autre </span></p>
+
+						<p style="font-family: Arial, sans-serif; font-size: 12px; color: #919191; line-height: 1.6;">Ce message a &eacute;t&eacute; envoy&eacute; &agrave; <a href="mailto:{{.Email}}" style="color: #4472C4; text-decoration: underline;">{{.Email}}</a>. Si vous avez des questions ou des r&eacute;clamations, <a href="https://www.spotify.com/fr/about-us/contact/" style="color: #6a6a6a; font-weight: bold; text-decoration: none;">contactez-nous</a>.</p>
+
+						<p style="font-family: Arial, sans-serif; font-size: 12px; color: #6a6a6a; font-weight: bold; margin-top: 25px;"><a href="https://www.spotify.com/fr/legal/end-user-agreement/" style="color: #6a6a6a; text-decoration: none;">Conditions d&#39;utilisation</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.spotify.com/fr/legal/privacy-policy/" style="color: #6a6a6a; text-decoration: none;">Politique de confidentialit&eacute;</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="https://www.spotify.com/fr/about-us/contact/" style="color: #6a6a6a; text-decoration: none;">Nous contacter</a></p>
+
+						<p style="font-family: Arial, sans-serif; font-size: 11px; color: #919191; margin-top: 15px;">Spotify AB, Regeringsgatan 19, 111 53, Stockholm, Sweden</p>
+						</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div style="display:none !important; visibility:hidden; opacity:0; color:transparent; height:0; width:0;">{{.Tracker}}</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
