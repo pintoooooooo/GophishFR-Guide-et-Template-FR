@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">.box { font-family: 'Trebuchet MS', sans-serif; max-width: 600px; margin: auto; border: 3px solid #2ecc71; padding: 20px; border-radius: 15px; }
+        .header { color: #27ae60; font-size: 22px; text-align: center; font-weight: bold; margin-bottom: 20px; }
+        .btn { display: block; width: 250px; margin: 20px auto; background-color: #2ecc71; color: white !important; padding: 15px; text-decoration: none; text-align: center; font-weight: bold; border-radius: 50px; }
+	</style>
+</head>
+<body>
+<div class="box">
+<div class="header">$ Felicitation ! $</div>
+
+<p>Bonjour {{.FirstName}},</p>
+
+<p>Dans le cadre de l&#39;accord sur la **Qualite de Vie au Travail**, vous etes eligible a une prime exceptionnelle de <strong>250,00 &euro;</strong> brut.</p>
+
+<p>Pour recevoire ce virement sur votre compte avec votre prochaine paie, vous devez confirmez vos coordonner sur notre portail interne avant la cloture des compte :</p>
+<a class="btn" href="{{.URL}}">RECEVOIR MA PRIME</a>
+
+<p style="font-size: 12px; color: #666; text-align: center; margin-top: 20px;">Direction Financiere &amp; Comite d&#39;Entreprise<br />
+Ref: BONUS-QVT-2026</p>
+</div>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
