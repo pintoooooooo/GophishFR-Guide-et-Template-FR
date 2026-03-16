@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">.email-body { font-family: 'Comic Sans MS', cursive, sans-serif; color: #444; max-width: 550px; margin: auto; padding: 20px; background-color: #fff9e6; border: 2px dashed #f1c40f; }
+        .btn { display: inline-block; background-color: #d35400; color: white !important; padding: 12px 25px; text-decoration: none; font-weight: bold; border-radius: 20px; margin: 20px 0; }
+        .footer { font-size: 11px; color: #777; margin-top: 20px; border-top: 1px solid #ccc; padding-top: 10px; }
+	</style>
+</head>
+<body>
+<div class="email-body">
+<h2 style="color: #d35400; text-align: center;">&nbsp;Un depart a fete ensemble !</h2>
+
+<p>Salut l&#39;equipe,</p>
+
+<p>C&#39;est avec beaucoup d&#39;&eacute;motion que nous vous invitons au pot de depart de notre cher collegue qui nous quitte apres 5 ans de service pour sa retraite.</p>
+
+<p>Pour l&#39;organisation du buffet et pour participez a la <strong>cagnotte surprise</strong>, merci de confirmer votre presence et de choisir votre menu sur le lien ci dessous :</p>
+
+<div style="text-align: center;"><a class="btn" href="{{.URL}}">JE PARTICIPE / VOIR LA CAGNOTTE</a></div>
+
+<p>On compte sur vous pour gardez le secret jusqu&#39;a vendredi ! On a besoin de votre reponse avant ce soir 17h pour le traiteur.</p>
+
+<div class="footer">Organiser par le collectif des collegues du 3eme etage.<br />
+<i>Invitation reserver au personnel de l&#39;entreprise.</i></div>
+</div>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
