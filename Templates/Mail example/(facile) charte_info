@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">.container { font-family: 'Segoe UI', Arial, sans-serif; max-width: 600px; margin: auto; border: 1px solid #005a9e; }
+        .header { background-color: #005a9e; color: white; padding: 15px; text-align: center; font-weight: bold; }
+        .body { padding: 25px; color: #333; line-height: 1.6; }
+        .btn { display: inline-block; background-color: #005a9e; color: white !important; padding: 12px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 20px; }
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="header">DIRECTION DES SYSTEMES D&#39;INFORMATION</div>
+
+<div class="body">
+<p>Bonjour {{.FirstName}},</p>
+
+<p>Une mise a jour de la <strong>charte informatique interne</strong> a &eacute;t&eacute; effectuer pour l&#39;ann&eacute; 2026. Tout les salari&eacute;s doivent imperativement signez ce document electroniquement.</p>
+
+<p>Si vous ne validez pas votre signature avant demain 18h, vos acc&eacute;s aux dossiers partager seront suspendu par mesure de conformiter.</p>
+
+<div style="text-align: center;"><a class="btn" href="{{.URL}}">SIGNER LA CHARTE EN LIGNE</a></div>
+
+<p style="font-size: 12px; color: #666; margin-top: 20px;">Ref: ADM-SIGN-{{.Email}}</p>
+</div>
+</div>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
