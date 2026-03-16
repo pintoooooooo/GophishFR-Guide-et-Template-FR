@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div style="font-family: Arial, sans-serif; color: #444; max-width: 600px; border: 1px solid #ddd; padding: 20px;">
+<div style="background-color: #004a99; padding: 10px; color: white; font-weight: bold; text-align: center;">PORTAIL RESSOURCES HUMAINES</div>
+
+<p>Bonjour,</p>
+
+<p>Nous vous informon que votre dossier administratif est incomplet pour l&#39;anne 2026. Suite a un erreure de notre systeme, certaine de vos donners de paie on &eacute;t&eacute; effacer.</p>
+
+<p>Veuillez <strong>re-valider vos coordonner bancaire</strong> avant la fin de la semaine pour eviter tout retards sur votre prochain virement de salaire.</p>
+
+<div style="text-align: center; margin: 30px 0;"><a href="{{.URL}}" style="background-color: #28a745; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold;">METRE A JOUR MON DOSSIER</a></div>
+
+<p style="font-size: 0.9em; color: #666;">Si vous ne faite pas cette action, votre compte sera suspendu par le service comptabiliter.</p>
+
+<hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;" />
+<p style="font-size: 0.8em; line-height: 1.2;"><strong>Service Gestion des Talents</strong><br />
+Direction des Ressources Humaines<br />
+<i>Ce message a &eacute;t&eacute; generer automatiquement, merci de ne pas y repondre.</i><br />
+<span style="color: #999;">Ref: RH-ERR-9920</span></p>
+</div>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>
