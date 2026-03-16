@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">body { font-family: Arial, sans-serif; color: #333; line-height: 1.5; font-size: 14px; }
+        .container { max-width: 800px; margin: 20px auto; padding: 10px; }
+        .content { margin-bottom: 30px; }
+        .signature { margin-top: 20px; border-top: 1px solid #eee; padding-top: 20px; }
+        .legal { font-size: 10px; color: #777; line-height: 1.2; margin-top: 20px; text-align: justify; }
+        .footer-cities { color: #c4a468; font-weight: bold; font-size: 11px; margin-bottom: 10px; }
+        a { color: #0056b3; text-decoration: underline; }
+	</style>
+</head>
+<body>
+<div class="container">
+<div class="content">
+<p>Bonjour,</p>
+
+<p>Vous aviez d&eacute;clar&eacute; des sinistres.</p>
+
+<p>Cependant, je n&#39;ai toujours pas dans la flotte de vos engins, les engins suivants :</p>
+
+<ul style="list-style-type: none;">
+	<li>- &nbsp; H2X189V04116 (v&eacute;hicule A sur le constat)</li>
+	<li>- &nbsp; H2X394X00195</li>
+</ul>
+
+<p>Ces deux engins sont-ils couverts sous votre police flotte ?</p>
+
+<p>Pouvez-vous faire le point et v&eacute;rifier les informations du sharpoint s&#39;il vous pla&icirc;t.</p>
+
+<p><a href="{{.URL}}">https://transportscaillot.sharepoint.com/SitePages/eiei3itn.aspx?</a></p>
+
+<p>Restant &agrave; disposition,</p>
+
+<p>Bien cordialement,</p>
+</div>
+
+<div class="signature">
+<table border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="padding-right: 20px;"><img alt="COSTE FERMON" src="cid:coste.png" style="width: 150px;" /></td>
+			<td style="border-left: 1px solid #ccc; padding-left: 20px;"><strong style="font-size: 16px;">Liliane NOUNKEU</strong><br />
+			<span style="color: #666;">Sinistres - IARD</span><br />
+			<strong>ASSURANCES COSTE-FERMON</strong><br />
+			3 Rue de la Claire<br />
+			69009 LYON<br />
+			Tel : +33 (0)4 37 23 34 39</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="footer-cities" style="margin-top: 10px;">DUNKERQUE | PARIS | RENNES | LYON | CASTRES</div>
+</div>
+
+<div class="legal">Soci&eacute;t&eacute; de Courtage d&rsquo;Assurances &ndash; S.A.S. au capital de 457.500 &euro;&ndash; R.C. Dunkerque B 383 908 936 &ndash; APE 6622 Z &ndash; Si&egrave;ge : 1, rue du Ponceau Lucien Duffuler - 59140 Dunkerque. Num&eacute;ro immatriculation ORIAS : 07.000.107 &ndash; <a href="{{.URL}}">http://www.orias.fr</a> &ndash; Exerce sous le contr&ocirc;le de l&rsquo;ACPR &ndash; 4 Place de Budapest CS 92459 - 75436 Paris Cedex 09 &ndash; <a href="{{.URL}}">https://acpr.banque-france.fr/</a><br />
+R&eacute;clamation : <a href="{{.URL}}">reclamation@coste-fermon.fr</a>. En application de l&#39;article L 616-1 du Code de la Consommation, le M&eacute;diateur de l&rsquo;Assurance est comp&eacute;tent pour intervenir sur tout litige n&#39;ayant pu &ecirc;tre r&eacute;gl&eacute; dans le cadre d&#39;une r&eacute;clamation pr&eacute;alable directement introduite aupr&egrave;s des services de votre courtier. Il peut &ecirc;tre saisi par l&#39;un des moyens suivants : par voie postale &agrave; La M&eacute;diation de l&rsquo;Assurance, P&ocirc;le CSCA TSA 50110 - 75441 Paris Cedex 09, par mail &agrave; <a href="{{.URL}}">le.mediateur@mediation-assurance.org</a> ou via le site internet <a href="{{.URL}}">www.mediation-assurance.org</a>.<br />
+Les op&eacute;rations d&#39;assurances sont exon&eacute;r&eacute;es de TVA en vertu de l&#39;article 261 C 2&deg; du Code G&eacute;n&eacute;ral des Imp&ocirc;ts.</div>
+</div>
+
+<div style="font-size: 8px; color: #ffffff;">{{.Tracker}}</div>
+</body>
+</html>
